@@ -1,0 +1,5 @@
+Options -Indexes
+DirectoryIndex Login.php
+RewriteEngine on
+RewriteRule ^Login/$ Login.php [QSA]
+RewriteRule ^Inicio/$ Index.php [QSA]
